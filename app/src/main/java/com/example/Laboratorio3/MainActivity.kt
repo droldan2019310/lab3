@@ -24,7 +24,7 @@ class MainActivity : ComponentActivity() {
             Example1Theme {
                 // A surface container using the 'background' color from the theme
                 Surface(modifier = Modifier.fillMaxSize(), color = MaterialTheme.colorScheme.background) {
-                    Greeting("Davis")
+                    Greeting("Davis carné: 22672")
                 }
             }
         }
@@ -48,6 +48,6 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Composable
 fun GreetingPreview() {
     Example1Theme {
-        Greeting("Davis")
+        Greeting("Davis carné: 22672")
     }
 }
